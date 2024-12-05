@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+    background-color: #2563eb;
+    color: white;
+}
+
+TextField {
+    border-width: 1;
+    border-color: #e2e8f0;
+    padding: 12;
+    margin: 4 0;
+}
+
+Button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12;
+    margin: 4 0;
+}
+
+.shadow-md {
+    elevation: 3;
+}
+
+.rounded-lg {
+    border-radius: 8;
+}
+
+.rounded-t-lg {
+    border-top-left-radius: 8;
+    border-top-right-radius: 8;
+}
